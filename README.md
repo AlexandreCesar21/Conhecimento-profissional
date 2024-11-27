@@ -24,29 +24,14 @@
         </thead>
         <tbody>
             <tr>
-                <td class="pesobaixo">codigo</td>
+                <td class="pesobaixo"><code>codigo</code></td>
                 <td class="pesobaixo">INT (PK, AI)</td>
               <td class="pesobaixo">Código do tipo de curso</td>
             </tr>
             <tr>
-                <td class="pesonormal">Peso normal</td>
-                <td class="pesonormal">18,5 e 24,9</td>
-            </tr>
-            <tr>
-                <td class="sobrepeso">Sobrepeso</td>
-                <td class="sobrepeso">25 e 29,99</td>
-            </tr>
-            <tr>
-                <td class="obesidadegrauI">Obesidade grau I</td>
-                <td class="obesidadegrauI">30 e 34,99</td>
-            </tr>
-            <tr>
-                <td class="obesidadegrauII">Obesidade grau II (Servera)</td>
-                <td class="obesidadegrauII">35 e 39,99</td>
-            </tr>
-            <tr>
-                <td class="obesidadegrauIII">Obesidade grau III (Mórbida)</td>
-                <td class="obesidadegrauIII">Acima de 40</td>
+                <td class="pesonormal"><code>tipo</code></td>
+                <td class="pesonormal">VARCHAR(30)</td>
+                <td class="pesonormal">Tipo do curso</td>
             </tr>
         </tbody>
     </table>
